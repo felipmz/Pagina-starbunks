@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body,html{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+section.sobre{
+    height: calc(100% - 20px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom: -50;
+    right: -170;
+    width: 650px;
+    height: 650px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+.imgcafe{
+    width:40% ;
+}
+.socialredes{
+    position: absolute;
+    right: 4px;
+    top: 140;
+}
+.txtabout{
+    margin-top: 100px;
+}
+.txtabout{
+    font-size: 30px;
+}
+.centro{
+    margin-left: 50px; /*deu canseira pra fazer*/
+}
+.parag{
+    font-size: 60%;
+}
+.botao input{
+    margin:10px;
+    border: 0; 
+    width: 95px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+}
+.socialredes img{
+    display: block;
+    width: 18px;
+    margin:19px ;
+}
+.baixo{
+    position: absolute;
+    padding: 220px 0;
+    margin-left: 580px;
+    
+    
+}
+.img1 {
+    width: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.img2{
+    width: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.img3{
+    width: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
